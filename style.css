@@ -16,7 +16,7 @@ body{
     position: absolute;
     width: 5px;
     height: 40px;
-    bottom: 503px;
+    bottom: 508px;
     background: grey;
     z-index: 10;
     border: 2px;
@@ -27,7 +27,7 @@ body{
     position: absolute;
     width: 5px;
     height: 40px;
-    left: 535px;
+    left: 920px;
     background:grey;
     rotate: 90deg;
     border: 2px;
@@ -38,7 +38,7 @@ body{
     position: absolute;
     width: 5px;
     height: 40px;
-    top: 503px;
+    top: 507px;
     background: grey;
     border: 2px;
 }
@@ -48,7 +48,7 @@ body{
     position: absolute;
     width: 5px;
     height: 40px;
-    right: 535px;
+    right: 920px;
     background:grey;
     rotate: 90deg;
     border: 2px;
@@ -59,8 +59,8 @@ body{
     position: absolute;
     width: 5px;
     height: 25px;
-    bottom: 496px;
-    left: 462px;
+    bottom: 502px;
+    left: 845px;
     background: darkgrey;
     rotate: 30deg;
     border: 2px;
@@ -71,8 +71,8 @@ body{
     position: absolute;
     width: 5px;
     height: 25px;
-    top:  496px;
-    right: 465px;
+    top:  501px;
+    right: 849px;
     background: darkgrey;
     rotate: 30deg;
     border: 2px;
@@ -83,8 +83,8 @@ body{
     position: absolute;
     width: 5px;
     height: 25px;
-    bottom: 438px;
-    left: 522px;
+    bottom: 442px;
+    left: 906px;
     background : darkgrey;
     rotate: 60deg;
     border: 2px;
@@ -95,8 +95,8 @@ body{
     position: absolute;
     width: 5px;
     height: 25px;
-    top: 436px;
-    right: 524px;
+    top: 440px;
+    right: 907px;
     background : darkgrey;
     rotate: 60deg;
     border: 2px;
@@ -107,8 +107,8 @@ body{
     position: absolute;
     width: 5px;
     height: 25px;
-    top: 437px;
-    left: 521px;
+    top: 442px;
+    left: 906px;
     background : darkgrey;
     rotate: 120deg;
     border: 2px;
@@ -119,8 +119,8 @@ body{
     position: absolute;
     width: 5px;
     height: 25px;
-    bottom: 437px;
-    right: 523px;
+    bottom: 441px;
+    right: 908px;
     background : darkgrey;
     rotate: 120deg;
     border: 2px;
@@ -131,8 +131,8 @@ body{
     position: absolute;
     width: 5px;
     height: 25px;
-    top: 496px;
-    left: 461px;
+    top: 502px;
+    left: 845px;
     background : darkgrey;
     rotate: 150deg;
     border: 2px;
@@ -143,8 +143,8 @@ body{
     position: absolute;
     width: 5px;
     height: 25px;
-    bottom: 496px;
-    right: 465px;
+    bottom: 501px;
+    right: 849px;
     background : darkgrey;
     rotate: 150deg;
     border: 2px;
@@ -287,7 +287,7 @@ body{
     height: 100%;
     z-index: 0;
     left: 49%;
-    background linear-gradient(#CCF381,#E2D1F9)marine;
+    background: linear-gradient(#CCF381,#E2D1F9);
     width: 3px;
 }
 
