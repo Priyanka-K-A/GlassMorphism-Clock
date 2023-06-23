@@ -339,7 +339,6 @@ background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%); */
     border-radius: 20%;
     backdrop-filter: blur(15px);
     background: rgba(255, 255, 255, .05);
-    box-shadow: 0 0 30px linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
 }
 
 .box {
@@ -353,10 +352,10 @@ background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%); */
   }
   
   @keyframes myfirst {
-    0%   {left: 0px; top: 0px;}
-    25%  {left: 350px; top: 0px;}
-    50%  {left: 350px; top: 350px;}
-    75%  {left: 0px; top: 350px;}
+    0%   {left: 0px; top: -15px;}
+    25%  {left: 320px; top: -15px;}
+    50%  {left: 320px; top: 320px;}
+    75%  {left: 0px; top: 320px;}
     100% {left: 0px; top: 0px;}
   }
 
