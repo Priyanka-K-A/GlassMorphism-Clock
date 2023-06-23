@@ -152,6 +152,7 @@ body{
 
 .container{
     position: relative;
+
 }
 
 .container .circle{
@@ -165,7 +166,7 @@ body{
     width: 180px;
     height: 180px;
     top: -60px;
-    left: -60px;
+    left: 400px;
     background: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
     animation-name: move-up;
 }
@@ -179,8 +180,8 @@ body{
 .container .circle:nth-child(2) {
     width: 120px;
     height: 120px;
-    bottom: -20px;
-    right: -20px;
+    bottom: 20px;
+    right: 430px;
     background: linear-gradient(120deg, #84fab0 0%, #8fd3f4 100%);
     animation-name: move-down;
 }
@@ -320,4 +321,42 @@ background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
 
 /* background-color: #85FFBD;
 background-image: linear-gradient(45deg, #85FFBD 0%, #FFFB7D 100%); */
+
+.alignment{
+    display: grid;
+    align-items:end;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 130px;
+}
+.calendar {
+    width: 350px;
+    height: 350px;
+    float: left;
+    border: 4px;
+    border-width: 2px;
+    border-color: palegoldenrod;
+    border-style: solid;
+    border-radius: 20%;
+    backdrop-filter: blur(15px);
+    background: rgba(255, 255, 255, .05);
+    box-shadow: 0 0 30px linear-gradient(45deg, #FA8BFF 0%, #2BD2FF 52%, #2BFF88 90%);
+}
+
+.box {
+    width: 30px;
+    height: 30px;
+    background:linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+    border-radius: 50%;
+    position: absolute;
+    animation: myfirst 30s infinite;
+    /* animation-direction: alternate; */
+  }
+  
+  @keyframes myfirst {
+    0%   {left: 0px; top: 0px;}
+    25%  {left: 350px; top: 0px;}
+    50%  {left: 350px; top: 350px;}
+    75%  {left: 0px; top: 350px;}
+    100% {left: 0px; top: 0px;}
+  }
 
