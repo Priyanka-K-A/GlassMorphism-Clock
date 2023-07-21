@@ -11,12 +11,26 @@
             <div class="circle"></div>
             <div class="alignment">
                 <div class="calendar">
-                    <div class="firstcircle">
+                    <div class="firstcircle"></div>                    
+                    <div class="clock__date">
+                        <hr class="date_line">
+                        <!-- display day -->
+                        <span class="clock__day-week" id="date-day-week"></span> 
+
+                        <!-- display month date year -->
+                        <div>
+                           <span class="clock__month" id="date-month"></span>
+                           <span class="clock__day" id="date-day"></span>
+                           <span class="clock__year" id="date-year"></span>
+                        </div>
+                     </div>
                      
-                    </div>
-                    <div class="secondcircle">
-                    
-                    </div>
+                     <!-- display time and am or pm -->
+                     <div class="clock__text">
+                        <span class="clock__text-hour" id="text-hour"></span>
+                        <span class="clock__text-minutes" id="text-minutes"></span>
+                        <span class="clock__text-ampm" id="text-ampm"></span>
+                     </div>
                 </div>
 
                 <div class="clock">
