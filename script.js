@@ -22,7 +22,8 @@ const dateDayWeek = document.getElementById('date-day-week'),
       dateYear = document.getElementById('date-year'),
       textHour = document.getElementById('text-hour'),
       textMinutes = document.getElementById('text-minutes'),
-      textAmPm = document.getElementById('text-ampm')
+      textAmPm = document.getElementById('text-ampm'),
+      textSec = document.getElementById('text-seconds')
 
 const clockText = () => {
     let date = new Date()
@@ -32,6 +33,7 @@ const clockText = () => {
     year = date.getFullYear(),
     hh = date.getHours(),
     mm = date.getMinutes(),
+    ss = date.getSeconds(),
     ampm
 
     let daysWeek = ['Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday']
@@ -59,7 +61,12 @@ const clockText = () => {
   
      if(mm < 10){mm = `0${mm}`}
   
-     textMinutes.innerHTML = mm
+     textMinutes.innerHTML = `${mm}:`
+
+     if(ss<10){ss = `0${ss}`}
+
+     textSec.innerHTML = ss 
+
   }
   setInterval(clockText, 1000)
 
