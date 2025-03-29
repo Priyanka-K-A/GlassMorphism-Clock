@@ -15,12 +15,12 @@ body {
     content: "";
     position: absolute;
     width: 4px;
-    background: grey;
+    background: gray;
     border: 2px;
 }
 .twelve {
   height: 40px;
-  bottom: 508px;
+  bottom: 500px;
   z-index: 10;
 }
 
@@ -32,7 +32,7 @@ body {
 
 .six {
   height: 40px;
-  top: 507px;
+  top: 500px;
 }
 
 .nine {
@@ -43,57 +43,57 @@ body {
 
 .one {
   height: 25px;
-  bottom: 502px;
+  bottom: 495px;
   left: 845px;
   rotate: 30deg;
 }
 
 .seven {
   height: 25px;
-  top: 501px;
-  right: 849px;
+  top: 495px;
+  right: 845px;
   rotate: 30deg;
 }
 
 .two {
   height: 25px;
-  bottom: 442px;
-  left: 906px;
+  bottom: 440px;
+  left: 903px;
   rotate: 60deg;
 }
 
 .eight {
   height: 25px;
   top: 440px;
-  right: 907px;
+  right: 903px;
   rotate: 60deg;
 }
 
 .four {
   height: 25px;
-  top: 442px;
-  left: 906px;
+  top: 441px;
+  left: 903px;
   rotate: 120deg;
 }
 
 .ten {
   height: 25px;
   bottom: 441px;
-  right: 908px;
+  right: 903px;
   rotate: 120deg;
 }
 
 .five {
   height: 25px;
-  top: 502px;
+  top: 495px;
   left: 845px;
   rotate: 150deg;
 }
 
 .eleven {
   height: 25px;
-  bottom: 501px;
-  right: 849px;
+  bottom: 495px;
+  right: 845px;
   rotate: 150deg;
 }
 
@@ -240,7 +240,7 @@ hr,
   border: 4px;
   border-width: 4px;
   border-color: palegoldenrod;
-  border-color: darkgrey;
+  border-color: gray;
   border-style: solid;
   border-radius: 10%;
   backdrop-filter: blur(15px);
@@ -294,8 +294,8 @@ hr,
 }
 
 .date_line {
-  background-color: darkgrey;
-  border-color: darkgrey;
+  background-color: gray;
+  border-color: gray;
   width: 300px;
   border-radius: 0%;
   text-align: left;
@@ -315,6 +315,7 @@ hr,
   left: 20pt;
   background: -webkit-linear-gradient(#4158d0, #c850c0, #ffcc70);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -330,6 +331,7 @@ hr,
   width: 100px;
   background: -webkit-linear-gradient(#84fab0, #8fd3f4);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
@@ -344,6 +346,7 @@ hr,
   width: 100px;
   background: -webkit-linear-gradient(#84fab0, #8fd3f4);
   -webkit-background-clip: text;
+  background-clip: text;
   -webkit-text-fill-color: transparent;
 }
 
